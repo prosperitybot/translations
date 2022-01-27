@@ -19,16 +19,16 @@
         },
         "level": {
             "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
+            "your_current_level": "Your current level is **%user_level%**\nYou need **%user_xp_needed%** xp to get to the next level",
             "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "user_current_level": "%user%'s current level is **%user_level%**\nThey need **%user_xp_needed%** xp to get to the next level"
         },
         "levelroles": {
             "role_already_used": "%role% is already being used for a level",
             "level_must_be_positive": "Level must be a positive number",
             "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level**\n**Status**:\nAdded role to %amount% members",
+            "role_granted_status": "%role% will be granted at **Level %level**\n**Status**:\nCurrently adding this role to %member_count% members",
+            "role_granted_status_complete": "%role% will be granted at **Level %level**\n**Status**:\nAdded role to %member_count% members",
             "role_not_used": "%role% is not being used for a level",
             "role_removed": "%role% will no longer be granted at **Level %level%**"
         },
@@ -52,7 +52,7 @@
             "please_select": "Please select the type of notifications you want below...",
             "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
             "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This server now has a **%multiplier%x** multiplier assigned"
+            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
         },
         "xp": {
             "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
