@@ -15,6 +15,7 @@ jobs:
         with: 
           repository: prosperitybot/bot
           token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
+          ssh-key: ${{ secrets.PRIVATE_SSH_KEY }}
 
       - name: Pull & update submodules recursively
         run: |
