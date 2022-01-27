@@ -1,0 +1,13 @@
+{
+    "commands": {
+        "level": {
+            "not_spoken_yet": "You have not spoken where the bot can see you yet",
+            "your_current_level": "Your current level is **%user_level%**\nYou need **%user_xp_needed%** xp to get to the next level",
+            "user_not_spoken_yet": "%user% has never talked before",
+            "user_current_level": "%users%'s current level is **%user_level%**\nThey need **%user_xp_needed** xp to get to the next level"
+        }
+    },
+    "generic": {
+        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team"
+    }
+}
