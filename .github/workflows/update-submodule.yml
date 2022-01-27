@@ -12,22 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with: 
-          repository: prosperitybot/bot
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          ssh-key: ${{ secrets.PRIVATE_SSH_KEY }}
-          submodules: recursive
-
-      - name: Pull & update submodules recursively
+      - name: Create repository dispatch event
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
         run: |
-          git submodule update --init --recursive
-          git submodule update --recursive --remote
-      - name: Commit
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions - update submodules"
-          git add --all
-          git commit -m "Update submodules" || echo "No changes to commit"
-          git branch -M automatic/update-translations
-          git checkout automatic/update-translations
-          git push -u origin automatic/update-translations
+          gh api repos/:prosperitybot/bot/dispatches \
+              --raw-field event_type=bot_automated
