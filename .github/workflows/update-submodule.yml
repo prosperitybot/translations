@@ -1,4 +1,4 @@
-name: Update Bot with new Translations
+name: Update bot repository with new translations
 
 on:
   workflow_dispatch:
