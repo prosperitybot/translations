@@ -1,9 +1,9 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
+            "channel_already_ignored": "%channel% ya está siendo ignorado",
+            "channel_now_ignored": "%channel% será ignorado de ganar xp",
+            "channel_not_ignored": "%channel% no está siendo ignorado",
             "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
             "channel_list_title": "Ignored Channels"
         },
