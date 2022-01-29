@@ -1,18 +1,18 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_already_ignored": "%channel% wird bereits ignoriert",
+            "channel_now_ignored": "%channel% wird nun ignoriert und vergibt keine XP mehr",
+            "channel_not_ignored": "%channel% wird nicht ignoriert",
+            "channel_now_not_ignored": "%channel% wird nicht ignoriert und vergibt XP",
+            "channel_list_title": "Ignorierte Kanäle"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
-            "role_list_title": "Ignored Roles"
+            "role_already_ignored": "%role% wird bereits ignoriert",
+            "role_now_ignored": "%role% wird nun ignoriert und erhält keine XP mehr",
+            "role_not_ignored": "%role% wird nicht ignoriert",
+            "role_now_not_ignored": "%role% wird nicht ignoriert und erhält XP",
+            "role_list_title": "Ignorierte Rollen"
         },
         "leaderboard": {
             "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
