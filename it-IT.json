@@ -1,17 +1,17 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
+            "channel_already_ignored": "%channel% viene già’ ignorato",
+            "channel_now_ignored": "%channel% verra’ignorato dal guadagno xp",
+            "channel_not_ignored": "%channel% non viene ignorato",
+            "channel_now_not_ignored": "%channel% non sarà ignorato dal guadagno xp",
             "channel_list_title": "Ignored Channels"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
+            "role_already_ignored": "%role% viene già’ ignorato",
+            "role_now_ignored": "%role% verra’ignorato dal guadagno xp",
+            "role_not_ignored": "%role% non viene ignorato",
+            "role_now_not_ignored": "%role% non sarà ignorato dal guadagno xp",
             "role_list_title": "Ignored Roles"
         },
         "leaderboard": {
