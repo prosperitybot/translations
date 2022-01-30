@@ -27,17 +27,17 @@
             "role_already_used": "%role% já está a ser usado para um nível",
             "level_must_be_positive": "Nível deve ser um número positivo",
             "role_granted": "%role% será concedido no **Nível %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
+            "role_granted_status": "%role% será concedido no **Nível %level%**\n**Estado**:\nAtualmente adicionando este papel a %amount% membros",
             "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_not_used": "%role% não está a ser usado para um nível",
+            "role_removed": "%role% não %role% será mais concedido no **Nível %level%**"
         },
         "levels": {
             "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "level_to_give_must_be_positive": "Níveis a fornecer devem ser um número positivo",
+            "levels_added": "Dado %amount% nível%plural% a %user%",
+            "level_to_take_must_be_positive": "Níveis a tomar devem ser um número positivo",
+            "levels_taken": "Tomado %amount% nível%plural% do %user%"
         },
         "settings": {
             "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
@@ -52,7 +52,7 @@
             "please_select": "Please select the type of notifications you want below...",
             "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
             "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
+            "multiplier_set": "Esta guilda agora tem um multiplicador de **%multiplier%x** atribuído"
         },
         "xp": {
             "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
