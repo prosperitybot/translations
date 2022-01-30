@@ -28,57 +28,57 @@
             "level_must_be_positive": "Nível deve ser um número positivo",
             "role_granted": "%role% será concedido no **Nível %level%**",
             "role_granted_status": "%role% será concedido no **Nível %level%**\n**Estado**:\nAtualmente adicionando este papel a %amount% membros",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
+            "role_granted_status_complete": "%role% será concedido no **Nível %level%**\n**Estado**:\nPapel acrescido a %amount% membros",
             "role_not_used": "%role% não está a ser usado para um nível",
             "role_removed": "%role% não %role% será mais concedido no **Nível %level%**"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
+            "user_doesnt_exist": "%user% não tem falado em chat desde que o bot foi adicionado",
             "level_to_give_must_be_positive": "Níveis a fornecer devem ser um número positivo",
             "levels_added": "Dado %amount% nível%plural% a %user%",
             "level_to_take_must_be_positive": "Níveis a tomar devem ser um número positivo",
             "levels_taken": "Tomado %amount% nível%plural% do %user%"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
+            "notification_channel_updated": "Notificações de nível atualizadas com sucesso para serem enviadas a %channel%",
+            "notification_type_reply_label": "Responder à mensagem",
+            "notification_type_reply_description": "Envie a mensagem de nível para cima respondendo à mensagem que desencadeou o nível para cima",
+            "notification_type_channel_label": "Especificar Canal",
+            "notification_type_channel_description": "Envie a mensagem de nível para cima num canal definido",
+            "notification_type_dm_label": "Mensagens Diretas",
+            "notification_type_dm_description": "Envie a mensagem de nível para cima através de mensagens diretas",
+            "notification_type_disabled_label": "Deficientes",
+            "notification_type_disabled_description": "Desativar mensagens de nível para cima",
+            "please_select": "Por favor selecione o tipo de notificações que deseja abaixo...",
+            "role_type_stacked": "Utilizadores agora terão papéis empilhados e suas papéis anteriores não serão removidas",
+            "role_type_single": "Utilizadores agora terão papéis únicos e as suas papéis anteriores serão removidas",
             "multiplier_set": "Esta guilda agora tem um multiplicador de **%multiplier%x** atribuído"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "%user% não falou no chat desde que o bot foi adicionado",
+            "xp_to_give_must_be_positive": "Xp a fornecer devem ser um número positivo",
+            "xp_added": "Dado %amount% xp a %user%",
+            "xp_to_take_must_be_positive": "Xp a tomar devem ser um número positivo",
+            "xp_taken": "Tomado %amount% xp do %user%"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "Parabéns %user%! Você classificou até o nível %level%",
+            "message_level_up_channel": "Parabéns %user%! Você classificou até o nível %level%",
+            "message_level_up_dm": "Parabéns %user%! Você classificou até o nível %level%"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "reply": "Notificações de nível atualizadas com sucesso a enviar através de **respostas**",
+            "channel": "Por favor use o comando slash `/settings notifications` e especifique o canal",
+            "dm": "Notificações de nível atualizadas com sucesso a enviar através de **Mensagens Diretas**",
+            "disable": "Notificações de nível atualizadas com sucesso para serem desativado"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "Houve um erro ao executar esta interação.\nPor favor forneça o código de erro **%error_code%** para a equipa de suporte",
+        "access_denied": "Acesso Negado"
     }
 }
