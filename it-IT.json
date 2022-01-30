@@ -5,14 +5,14 @@
             "channel_now_ignored": "%channel% verra’ignorato dal guadagno xp",
             "channel_not_ignored": "%channel% non viene ignorato",
             "channel_now_not_ignored": "%channel% non sarà ignorato dal guadagno xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_list_title": "Canali Ignorati"
         },
         "ignoredroles": {
             "role_already_ignored": "%role% viene già’ ignorato",
             "role_now_ignored": "%role% verra’ignorato dal guadagno xp",
             "role_not_ignored": "%role% non viene ignorato",
             "role_now_not_ignored": "%role% non sarà ignorato dal guadagno xp",
-            "role_list_title": "Ignored Roles"
+            "role_list_title": "Ruoli Ignorati"
         },
         "leaderboard": {
             "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
