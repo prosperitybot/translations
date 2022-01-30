@@ -1,84 +1,84 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_already_ignored": "%channel% est déjà ignoré",
+            "channel_now_ignored": "%channel% ignorera le gain d'xp",
+            "channel_not_ignored": "%channel% n'est pas ignoré",
+            "channel_now_not_ignored": "%channel% n'ignorera pas le gain d'xp",
+            "channel_list_title": "Chats Ignorés"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
-            "role_list_title": "Ignored Roles"
+            "role_already_ignored": "%role% est déjà ignoré",
+            "role_now_ignored": "%role% ignorera le gain d'xp",
+            "role_not_ignored": "%role% n'est pas ignoré",
+            "role_now_not_ignored": "%role% n'ignorera pas le gain d'xp",
+            "role_list_title": "Rôles Ignorés"
         },
         "leaderboard": {
-            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
+            "leaderboard_title": "Premiers %page_size% membres (Page %page%/%total_pages%)"
         },
         "level": {
-            "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "not_spoken_yet": "Vous n'avez pas encore parlé là où le bot peut vous voir",
+            "your_current_level": "Votre niveau actuel est **%level%**\nIl vous manque **%xp%** xp pour accéder au niveau suivant",
+            "user_not_spoken_yet": "%user% n'a jamais parlé",
+            "user_current_level": "Le niveau actuel de %user% est **%level%**\nIl leur manque **%xp%** pour accéder au niveau suivant"
         },
         "levelroles": {
-            "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
-            "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_already_used": "%role% est déjà utilisé pour un niveau",
+            "level_must_be_positive": "Le niveau doit être un nombre positif",
+            "role_granted": "%role% sera attribué au **Niveau %level%**",
+            "role_granted_status": "%role% sera attribué au **Niveau %level%**\nActuellement en train d'attribuer ce rôle à %amount% membres",
+            "role_granted_status_complete": "%role% sera attribué au **Niveau %level%**\n**Statut**:\nRole attribué à %amount% membres",
+            "role_not_used": "%role% n'est pas utilisé pour un niveau",
+            "role_removed": "%role% ne sera plus attribué au **Niveau %level%**"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "user_doesnt_exist": "%user% n'a pas parlé dans le serveur depuis que le bot a été ajouté",
+            "level_to_give_must_be_positive": "Le niveau à attribuer doivt être un nombre positif",
+            "levels_added": "Attribué %amount% niveau%plural% à %user%",
+            "level_to_take_must_be_positive": "Le niveau à retirer doivent être un nombre positif",
+            "levels_taken": "Retiré %amount% niveau%plural% à %user%"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
+            "notification_channel_updated": "Mise à a jour réussie des notifications de niveaux qui seront désormais envoyées dans %channel%",
+            "notification_type_reply_label": "Répondre au message",
+            "notification_type_reply_description": "Envoyer le message d'augmentation de niveau en répondant au message qui a déclenché l'augmentation",
+            "notification_type_channel_label": "Spécifier le chat",
+            "notification_type_channel_description": "Envoyer le message d'augmentation de niveau dans un chat défini",
+            "notification_type_dm_label": "Messages directs",
+            "notification_type_dm_description": "Envoyer le message d'augmentation de niveau par messages directs",
+            "notification_type_disabled_label": "Desactivé",
+            "notification_type_disabled_description": "Désactiver les messages d'augmentation de niveaux",
+            "please_select": "Merci de séléctionner le type de notifications souhaité ci-dessous...",
+            "role_type_stacked": "Les utilisateurs auront désormais des rôles additionnés et leurs rôles précédents ne seront pas retirés",
+            "role_type_single": "Les utilisateurs auront désormais des rôles singuliers et leurs rôles précédents seront retirés",
+            "multiplier_set": "Cette guilde à désormais un multiplicateur **%multiplier%x** assigné"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "%user% n'a pas parlé dans le serveur depuis que le bot a été ajouté",
+            "xp_to_give_must_be_positive": "L'xp à attribuer doit être un nombre positif",
+            "xp_added": "Attribué %amount% xp à %user%",
+            "xp_to_take_must_be_positive": "L'xp à retirer doit être un nombre positif",
+            "xp_taken": "Retiré %amount% xp à %user%"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "Félicitations %user%! Votre niveau à augmenté au niveau %level%",
+            "message_level_up_channel": "Félicitations %user%! Votre niveau à augmenté au niveau %level%",
+            "message_level_up_dm": "Félicitations %user%! Votre niveau à augmenté au niveau %level%"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "reply": "Mise à a jour réussie des notifications de niveaux qui seront désormais envoyées en **réponses**",
+            "channel": "Merci d'utiliser la commande /réglages notifications et de spécifier le chat",
+            "dm": "Mise à a jour réussie des notifications de niveaux qui seront désormais envoyées en **messages directs**",
+            "disable": "Mise à a jour réussie des notifications de niveaux qui sont désormais désactivées"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "Il y a eu une erreur lors de l'éxecution de cette action.\nMerci de bien vouloir donner le code d'erreur **%error_code%** à l'équipe de support",
+        "access_denied": "Accès Refusé"
     }
 }
