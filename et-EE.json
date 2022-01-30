@@ -1,43 +1,43 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% já está sendo ignorado",
-            "channel_now_ignored": "%channel% será ignorado de ganhar experiência",
-            "channel_not_ignored": "%channel% não está a ser ignorado",
-            "channel_now_not_ignored": "%channel% não será ignorado de ganhar xp",
-            "channel_list_title": "Canais Ignorados"
+            "channel_already_ignored": "%channel% is already being ignored",
+            "channel_now_ignored": "%channel% will be ignored from gaining xp",
+            "channel_not_ignored": "%channel% is not being ignored",
+            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
+            "channel_list_title": "Ignored Channels"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% já está sendo ignorado",
-            "role_now_ignored": "%role% será ignorado de ganhar xp",
-            "role_not_ignored": "%role% não está a ser ignorado",
-            "role_now_not_ignored": "%role% não será ignorado de ganhar xp",
-            "role_list_title": "Papéis Ignorados"
+            "role_already_ignored": "%role% is already being ignored",
+            "role_now_ignored": "%role% will be ignored from gaining xp",
+            "role_not_ignored": "%role% is not being ignored",
+            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
+            "role_list_title": "Ignored Roles"
         },
         "leaderboard": {
-            "leaderboard_title": "Topo %page_size% membros (Página %page%/%total_pages%)"
+            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
         },
         "level": {
-            "not_spoken_yet": "Você não falado onde o bot pode vê-lo ainda",
-            "your_current_level": "Seu nível atual é **%level%**\nVocê precisa de **%xp%** xp para chegar ao próximo nível",
-            "user_not_spoken_yet": "%user% nunca falou antes",
-            "user_current_level": "%user%'s nível atual é **%level%**\nEles precisam de **%xp%** xp para chegar ao próximo nível"
+            "not_spoken_yet": "You have not spoken where the bot can see you yet",
+            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
+            "user_not_spoken_yet": "%user% has never talked before",
+            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
         },
         "levelroles": {
-            "role_already_used": "%role% já está a ser usado para um nível",
-            "level_must_be_positive": "Nível deve ser um número positivo",
-            "role_granted": "%role% será concedido no **Nível %level%**",
-            "role_granted_status": "%role% será concedido no **Nível %level%**\n**Estado**:\nAtualmente adicionando este papel a %amount% membros",
+            "role_already_used": "%role% is already being used for a level",
+            "level_must_be_positive": "Level must be a positive number",
+            "role_granted": "%role% will be granted at **Level %level%**",
+            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
             "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% não está a ser usado para um nível",
-            "role_removed": "%role% não %role% será mais concedido no **Nível %level%**"
+            "role_not_used": "%role% is not being used for a level",
+            "role_removed": "%role% will no longer be granted at **Level %level%**"
         },
         "levels": {
             "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Níveis a fornecer devem ser um número positivo",
-            "levels_added": "Dado %amount% nível%plural% a %user%",
-            "level_to_take_must_be_positive": "Níveis a tomar devem ser um número positivo",
-            "levels_taken": "Tomado %amount% nível%plural% do %user%"
+            "level_to_give_must_be_positive": "Levels to give must be a positive number",
+            "levels_added": "Given %amount% level%plural% to %user%",
+            "level_to_take_must_be_positive": "Levels to take must be a positive number",
+            "levels_taken": "Taken %amount% level%plural% from %user%"
         },
         "settings": {
             "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
@@ -52,7 +52,7 @@
             "please_select": "Please select the type of notifications you want below...",
             "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
             "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "Esta guilda agora tem um multiplicador de **%multiplier%x** atribuído"
+            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
         },
         "xp": {
             "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
