@@ -1,84 +1,84 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_already_ignored": "%channel% ja està sent ignorat",
+            "channel_now_ignored": "%channel% serà ignorat de guanyar xp",
+            "channel_not_ignored": "%channel% no està sent ignorat",
+            "channel_now_not_ignored": "%channel% no serà ignorat de guanyar xp",
+            "channel_list_title": "Canals Ignorats"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
-            "role_list_title": "Ignored Roles"
+            "role_already_ignored": "%role% ja està sent ignorat",
+            "role_now_ignored": "%role% serà ignorat de guanyar xp",
+            "role_not_ignored": "%role% no està sent ignorat",
+            "role_now_not_ignored": "%role% no serà ignorat de guanyar xp",
+            "role_list_title": "Rols Ignorats"
         },
         "leaderboard": {
-            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
+            "leaderboard_title": "Primers %page_size% membres (Pàgina %page%/%total_pages%)"
         },
         "level": {
-            "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "not_spoken_yet": "No has parlat on el bot pot veure't encara",
+            "your_current_level": "El teu nivell és **%level%**\nNecessites **%xp%** xp per arribar al nivell següent",
+            "user_not_spoken_yet": "%user% mai no ha parlat abans",
+            "user_current_level": "El nivell actual de %user% és **%level%**\nNecessita **%xp%** xp per arribar al nivell següent"
         },
         "levelroles": {
-            "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
-            "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_already_used": "%role% ja està sent usat per a un nivell",
+            "level_must_be_positive": "El nivell ha de ser un nombre positiu",
+            "role_granted": "%role% serà concedit al **Nivell %level%**",
+            "role_granted_status": "%role% serà concedit al **Nivell %level%**\n**Estat**\nActualment afegint aquest rol a %amount% membres",
+            "role_granted_status_complete": "%role% serà concedit al **Nivell %level%**\n**Estat**\nAfegit aquest rol a %amount% membres",
+            "role_not_used": "%role% no està sent usat per a un nivell",
+            "role_removed": "%role% ja no serà concedit al **Nivell %level%**"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "user_doesnt_exist": "%user% no ha parlat en el xat des que el bot va ser afegit",
+            "level_to_give_must_be_positive": "Els nivells a donar han de ser un nombre positiu",
+            "levels_added": "Donat %amount% nivell a %user%",
+            "level_to_take_must_be_positive": "Els nivells a treure han de ser un nombre positiu",
+            "levels_taken": "Tret %amount% nivell de %user%"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
+            "notification_channel_updated": "Es van actualitzar amb èxit les notificacions de nivell per a ser enviades en %channel%",
+            "notification_type_reply_label": "Respondre al missatge",
+            "notification_type_reply_description": "Enviar el missatge de nivell responent al missatge que va activar l'increment del nivell",
+            "notification_type_channel_label": "Especificar Canal",
+            "notification_type_channel_description": "Enviar el missatge de nivel en un canal establert",
+            "notification_type_dm_label": "Missatges Directes",
+            "notification_type_dm_description": "Enviar el missatge de nivell a través de missatges directes",
+            "notification_type_disabled_label": "Deshabilitat",
+            "notification_type_disabled_description": "Deshabilitar missatges de nivell",
+            "please_select": "Si us plau, selecciona el tipus de notificacions que vols a continuació...",
+            "role_type_stacked": "Ara els usuaris tindran rols acumulats i els seus rols anteriors no seran eliminats",
+            "role_type_single": "Ara els usuaris tindran rols únics i els seus rols anteriors seran eliminats",
+            "multiplier_set": "Ara aquest gremi té un multiplicador de **%multiplier%x** assignat"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "%user% no ha parlat en el xat des que el bot va ser afegit",
+            "xp_to_give_must_be_positive": "Xp a donar ha de ser un nombre positiu",
+            "xp_added": "Donat %amount% xp a %user%",
+            "xp_to_take_must_be_positive": "Xp a treure ha de ser un nombre positiu",
+            "xp_taken": "Tret %amount% xp de %user%"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "Felicitacions %user%! Has aconseguit al nivell %level%",
+            "message_level_up_channel": "Felicitacions %user%! Has aconseguit al nivell %level%",
+            "message_level_up_dm": "Felicitacions %user%! Has aconseguit al nivell %level%"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "reply": "Es van actualitzar amb èxit les notificacions de nivell per a ser enviades a través de **respostes**",
+            "channel": "Si us plau, usa la comanda `/settings notifications` i especifica el canal",
+            "dm": "Es van actualitzar amb èxit les notificacions de nivell per a ser enviades a través de **Missatges Directes**",
+            "disable": "Es van actualitzar amb èxit les notificacions de nivell per a ser deshabilitades"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "Hi havia un error en executar aquesta interacció.\nSi us plau, dona el codi d'error **%error_code%** a l'equip de suport",
+        "access_denied": "Accés Denegat"
     }
 }
