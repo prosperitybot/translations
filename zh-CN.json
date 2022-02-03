@@ -73,12 +73,12 @@
         "guild_settings_notifications": {
             "reply": "成功把在提高级别的通知更新了，他们将会在 **回答** 里发送",
             "channel": "请用 `/settings notifications` slash 命令指定频道",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "dm": "成功把在提高级别的通知更新了，他们将会在 **私信** 里发送",
+            "disable": "成功把在提高级别的通知更新了，他们将会被取消"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "执行此交互时出错。\n请向支持团队提供错误代码 **%error_code%**",
+        "access_denied": "访问拒绝"
     }
 }
