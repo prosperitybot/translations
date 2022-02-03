@@ -1,78 +1,78 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_already_ignored": "%channel% 已经在被忽略",
+            "channel_now_ignored": "%channel% 将会从获取 xp 被忽略",
+            "channel_not_ignored": "%channel% 正不在被忽略",
+            "channel_now_not_ignored": "%channel% 不会从获取 xp 被忽略",
+            "channel_list_title": "忽略的频道"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
-            "role_list_title": "Ignored Roles"
+            "role_already_ignored": "%role% 已经在被忽略",
+            "role_now_ignored": "%role% 将会从获取 xp 被忽略",
+            "role_not_ignored": "%role% 正不在被忽略",
+            "role_now_not_ignored": "%role% 不会从获取 xp 被忽略",
+            "role_list_title": "忽略的角色"
         },
         "leaderboard": {
-            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
+            "leaderboard_title": "前 %page_size% 位 (%page%/%total_pages% 页)"
         },
         "level": {
-            "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "not_spoken_yet": "你还没在机器人可以看见你的位置说过话",
+            "your_current_level": "你正在 **%level%** 级\n要得到下一级，你需要 **%xp%** xp",
+            "user_not_spoken_yet": "%user% 还没说过话",
+            "user_current_level": "%user% 正在 **%level%** 及\n要得到下一级，他们需要 **%xp%** xp"
         },
         "levelroles": {
-            "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
-            "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_already_used": "%role% 已经在被一个及用于",
+            "level_must_be_positive": "级别必须要是正数",
+            "role_granted": "%role% 会在 **%level% 级** 上授予",
+            "role_granted_status": "%role% 会在 **%level% 级** 上授予\n**状态**：\n正在给 %amount% 个成员这个角色",
+            "role_granted_status_complete": "%role% 会在 **%level% 级** 上授予\n**状态**：\n把这个角色给了 %amount% 个成员",
+            "role_not_used": "%role% 不在被一个级别用于",
+            "role_removed": "%role% 将不会在 **%level% 级** 上授予"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "user_doesnt_exist": "从机器人被加入时后，%user% 没有在聊天室里说过话",
+            "level_to_give_must_be_positive": "要给予的级别必须要是正数",
+            "levels_added": "把 %amount% 个级%plural% 别给了 %user%",
+            "level_to_take_must_be_positive": "要拿走的级别必须要是正数",
+            "levels_taken": "把 %amount% 个级别%plural% 从 %user% 拿走了"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
+            "notification_channel_updated": "成功把在提高级别的通知更新了，他们将会在 %channel% 里发送",
+            "notification_type_reply_label": "回答短信",
+            "notification_type_reply_description": "通过回答导致提高级别消息的短信发送提高级别的消息",
+            "notification_type_channel_label": "指定频道",
+            "notification_type_channel_description": "在规定的频道里发送提高级别消息",
+            "notification_type_dm_label": "私信",
+            "notification_type_dm_description": "通过私信发送提高级别消息",
+            "notification_type_disabled_label": "取消",
+            "notification_type_disabled_description": "取消提高级别消息",
+            "please_select": "请在下面的列表上选择你想要的通知型...",
+            "role_type_stacked": "成员现在会有堆叠的角色，他们以前的角色将不会被删除",
+            "role_type_single": "成员现在会有单个角色，他们以前的角色将会被删除",
+            "multiplier_set": "这个公会现在有一个 **%multiplier%x** 乘数"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "从机器人被加入时后，%user% 没有在聊天室里说过话",
+            "xp_to_give_must_be_positive": "要给予的 xp 必须要是正数",
+            "xp_added": "把 %amount% 个 xp 给了 %user%",
+            "xp_to_take_must_be_positive": "要拿走的 xp 必须要是正数",
+            "xp_taken": "把 %amount% 个 xp 从 %user% 拿走了"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "恭喜 %user%！你已经排名到了 %level% 级",
+            "message_level_up_channel": "恭喜 %user%！你已经排名到了 %level% 级",
+            "message_level_up_dm": "恭喜 %user%！你已经排名到了 %level% 级"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
+            "reply": "成功把在提高级别的通知更新了，他们将会在 **回答** 里发送",
+            "channel": "请用 `/settings notifications` slash 命令指定频道",
             "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
             "disable": "Successfully updated level up notifications to be disabled"
         }
