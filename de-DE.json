@@ -15,70 +15,70 @@
             "role_list_title": "Ignorierte Rollen"
         },
         "leaderboard": {
-            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
+            "leaderboard_title": "Top %page_size% Mitglieder (Seite %page%/%total_pages%)"
         },
         "level": {
-            "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "not_spoken_yet": "Du hast noch keine Nachricht in einem Kanal geschrieben, in dem der Bot dich sehen kann",
+            "your_current_level": "Dein aktuelles Level ist **%level%**\nDu brauchst **%xp%** XP um das nächste Level zu erreichen",
+            "user_not_spoken_yet": "%user% hat zuvor noch nicht gesprochen",
+            "user_current_level": "%user%'s aktuelles Level ist **%level%**\nDieser User braucht **%xp%** um das nächste Level zu erreichen"
         },
         "levelroles": {
-            "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
-            "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_already_used": "%role% wird bereits für ein Level verwendet",
+            "level_must_be_positive": "Level muss eine positive Zahl sein",
+            "role_granted": "%role% wird ab **Level %level%** vergeben",
+            "role_granted_status": "%role% wird ab **Level %level%** vergeben\n**Status**:\nDiese Rolle wird gerade an %amount% Mitglieder ausgehändigt",
+            "role_granted_status_complete": "%role% wird ab **Level %level%** vergeben\n**Status**:\nRolle an %amount% Mitglieder ausgehändigt",
+            "role_not_used": "%role% wird nicht für ein Level benutzt ",
+            "role_removed": "%role% wird nicht mehr ab **Level %level%** vergeben"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "user_doesnt_exist": "%user% hat seit dem Hinzufügen des Bots nicht im Chat gesprochen",
+            "level_to_give_must_be_positive": "Zu gebende Level müssen eine positive Zahl sein",
+            "levels_added": "%amount% Level an %user% vergeben",
+            "level_to_take_must_be_positive": "Die zu entfernenden Level müssen eine positive Zahl sein",
+            "levels_taken": "%amount% Level von %user% entfernt"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
+            "notification_channel_updated": "Level-Up Nachrichten werden nun in %channel% gesendet",
+            "notification_type_reply_label": "Auf Nachricht antworten",
+            "notification_type_reply_description": "Sende die Level-Up Nachricht auf die Nachricht, die das Aufsteigen des Levels aktiviert hat",
+            "notification_type_channel_label": "Kanal festlegen",
+            "notification_type_channel_description": "Sende die Level-Up-Nachricht in einem festgelegten Kanal",
+            "notification_type_dm_label": "Direktnachrichten",
+            "notification_type_dm_description": "Level Up-Nachricht über Direktnachrichten senden",
+            "notification_type_disabled_label": "Deaktiviert",
+            "notification_type_disabled_description": "Level Up-Nachrichten deaktivieren",
+            "please_select": "Bitte wählen Sie die Art der Benachrichtigung unten...",
+            "role_type_stacked": "Benutzer haben nun übereinander angeordnete Rollen und ihre vorherigen Rollen werden nicht entfernt",
+            "role_type_single": "Benutzer haben nun einzelne Rollen und ihre vorherigen Rollen werden entfernt",
+            "multiplier_set": "Diese Gilde hat jetzt einen **%multiplier%x ** Multiplikator zugewiesen"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "%user% hat seit dem Hinzufügen des Bots nicht im Chat gesprochen",
+            "xp_to_give_must_be_positive": "Zu vergebende XP müssen eine positive Zahl sein",
+            "xp_added": "%amount% XP an %user% vergegeben",
+            "xp_to_take_must_be_positive": "Die zu entfernenden XP müssen eine positive Zahl sein",
+            "xp_taken": "%amount% XP von %user% entfernt"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "Herzlichen Glückwunsch %user%! Du bist auf Level %level% aufgestiegen",
+            "message_level_up_channel": "Herzlichen Glückwunsch %user%! Du bist auf Level %level% aufgestiegen",
+            "message_level_up_dm": "Herzlichen Glückwunsch %user%! Du bist auf Level %level% aufgestiegen"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "reply": "Level-Up Benachrichtigungen werden nun über **Antworten** gesendet",
+            "channel": "Bitte verwende den Slash Befehl `/settings notifications` und gebe den Kanal an",
+            "dm": "Level-Up Benachrichtigungen werden nun über Direktnachrichten versendet",
+            "disable": "Level-Up Nachrichten sind nun deaktiviert"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "Beim Ausführen dieser Interaktion ist ein Fehler aufgetreten.\nBitte stelle dem Support-Team den Fehlercode **%error_code%** zur Verfügung",
+        "access_denied": "Zugriff verweigert"
     }
 }
