@@ -19,24 +19,24 @@
         },
         "level": {
             "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "your_current_level": "Mevcut seviyeniz **%level%**\nBir sonraki seviyeye gelmek için **%xp%** xp'ye ihtiyacınız var",
+            "user_not_spoken_yet": "%user% daha önce konuşmadı",
+            "user_current_level": "%user%'ın mevcut seviyesi **%level%**\nBir sonraki seviyeye gelmek için **%xp%** xp'ye ihtiyaçları var"
         },
         "levelroles": {
             "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
+            "level_must_be_positive": "Seviye pozitif bir sayı olmalı",
             "role_granted": "%role% will be granted at **Level %level%**",
             "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
             "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
+            "role_not_used": "%role% bir seviye için kullanılmıyor",
             "role_removed": "%role% will no longer be granted at **Level %level%**"
         },
         "levels": {
             "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
+            "level_to_give_must_be_positive": "Verilecek seviyeler pozitif sayı olmalıdır",
+            "levels_added": "%user%'a %amount% seviye verildi",
+            "level_to_take_must_be_positive": "Alınacak seviyeler pozitif sayı olmalıdır",
             "levels_taken": "Taken %amount% level%plural% from %user%"
         },
         "settings": {
@@ -49,7 +49,7 @@
             "notification_type_dm_description": "Send the level up message via direct messages",
             "notification_type_disabled_label": "Disabled",
             "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
+            "please_select": "Lütfen istediğiniz bildirim çeşitlerini aşağıda seçin...",
             "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
             "role_type_single": "Users will now have single roles and their previous roles will be removed",
             "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
@@ -78,7 +78,7 @@
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "Bu işlemi gerçekleştirirken bir hata oluştu.\nLütfen **%error_code%** hata kodunu destek ekibiyle paylaşın",
+        "access_denied": "Erişim Reddedildi"
     }
 }
