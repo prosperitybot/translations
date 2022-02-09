@@ -1,84 +1,84 @@
 {
     "commands": {
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_already_ignored": "%channel% IZ ALREADY BEAN IGNORD",
+            "channel_now_ignored": "%channel% WILL BE IGNORD FRUM GAININ XP",
+            "channel_not_ignored": "%channel% IZ NOT BEAN IGNORD",
+            "channel_now_not_ignored": "%channel% WILL NOT BE IGNORD FRUM GAININ XP",
+            "channel_list_title": "IGNORD CHANNELS"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
-            "role_list_title": "Ignored Roles"
+            "role_already_ignored": "%role% IZ ALREADY BEAN IGNORD",
+            "role_now_ignored": "%role% WILL BE IGNORD FRUM GAININ XP",
+            "role_not_ignored": "%role% IZ NOT BEAN IGNORD",
+            "role_now_not_ignored": "%role% WILL NOT BE IGNORD FRUM GAININ XP",
+            "role_list_title": "IGNORD ROLEZ"
         },
         "leaderboard": {
-            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
+            "leaderboard_title": "TOP %page_size% MEMBERZ (PAEG %page%/%total_pages%)"
         },
         "level": {
-            "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "not_spoken_yet": "U HAS NOT SPOKEN WER TEH BOT CAN C U YET",
+            "your_current_level": "UR CURRENT LEVEL IZ **%level%**\nU NED **%xp%** XP 2 GIT 2 TEH NEXT LEVEL",
+            "user_not_spoken_yet": "%user% HAS NEVR TALKD BEFORE",
+            "user_current_level": "%user%'S CURRENT LEVEL IZ **%level%**\nTHEY NED **%xp%** XP 2 GIT 2 TEH NEXT LEVEL"
         },
         "levelroles": {
-            "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
-            "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_already_used": "%role% IZ ALREADY BEAN USD 4 LEVEL",
+            "level_must_be_positive": "LEVEL MUST BE POSITIV NUMBR",
+            "role_granted": "%role% WILL BE GRANTD AT **LEVEL %level%**",
+            "role_granted_status": "%role% WILL BE GRANTD AT **LEVEL %level%**\n**STATUS**:\nCURRENTLY ADDIN DIS ROLE 2 %amount% MEMBERZ",
+            "role_granted_status_complete": "%role% WILL BE GRANTD AT **LEVEL %level%**\n**STATUS**:\nADDD ROLE 2 %amount% MEMBERZ",
+            "role_not_used": "%role% IZ NOT BEAN USD 4 LEVEL",
+            "role_removed": "%role% WILL NO LONGR BE GRANTD AT **LEVEL %level%**"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "user_doesnt_exist": "%user% HAS NOT TALKD IN CHAT SINCE TEH BOT WUZ ADDD",
+            "level_to_give_must_be_positive": "LEVELS 2 GIV MUST BE POSITIV NUMBR",
+            "levels_added": "GIVEN %amount% LEVEL%plural% 2 %user%",
+            "level_to_take_must_be_positive": "LEVELS 2 TAEK MUST BE POSITIV NUMBR",
+            "levels_taken": "TAKEN %amount% LEVEL%plural% FRUM %user%"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
+            "notification_channel_updated": "SUCCESFULLY UPDATD LEVEL UP NOTIFICASHUNS 2 BE SENT IN %channel%",
+            "notification_type_reply_label": "REPLY 2 MESAGE",
+            "notification_type_reply_description": "SEND TEH LEVEL UP MESAGE BY REPLYIN 2 TEH MESAGE DAT TRIGGERD TEH LEVEL UP",
+            "notification_type_channel_label": "SPECIFY CHANNEL",
+            "notification_type_channel_description": "SEND TEH LEVEL UP MESAGE IN SET CHANNEL",
+            "notification_type_dm_label": "DIRECT MESAGEZ",
+            "notification_type_dm_description": "SEND TEH LEVEL UP MESAGE VIA DIRECT MESAGEZ",
+            "notification_type_disabled_label": "DISABLD",
+            "notification_type_disabled_description": "DISABLE LEVEL UP MESAGEZ",
+            "please_select": "PLZ SELECT TEH TYPE OV NOTIFICASHUNS U WANTS BELOW...",
+            "role_type_stacked": "USERS WILL NAO HAS STACKD ROLEZ AN THEIR PREVIOUS ROLEZ WILL NOT BE REMOVD",
+            "role_type_single": "USERS WILL NAO HAS SINGLE ROLEZ AN THEIR PREVIOUS ROLEZ WILL BE REMOVD",
+            "multiplier_set": "DIS GUILD NAO HAS **%multiplier%X** MULTIPLIR ASSIGND"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "%user% HAS NOT TALKD IN CHAT SINCE TEH BOT WUZ ADDD",
+            "xp_to_give_must_be_positive": "XP 2 GIV MUST BE POSITIV NUMBR",
+            "xp_added": "GIVEN %amount% XP 2 %user%",
+            "xp_to_take_must_be_positive": "XP 2 TAEK MUST BE POSITIV NUMBR",
+            "xp_taken": "TAKEN %amount% XP FRUM %user%"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "CONGRATULASHUNS %user%! U HAS RANKD UP 2 LEVEL %level%",
+            "message_level_up_channel": "CONGRATULASHUNS %user%! U HAS RANKD UP 2 LEVEL %level%",
+            "message_level_up_dm": "CONGRATULASHUNS %user%! U HAS RANKD UP 2 LEVEL %level%"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "reply": "SUCCESFULLY UPDATD LEVEL UP NOTIFICASHUNS 2 BE SENT VIA **REPLIEZ**",
+            "channel": "PLZ USE TEH SLASH COMMAND `/settings notifications` AN SPECIFY TEH CHANNEL",
+            "dm": "SUCCESFULLY UPDATD LEVEL UP NOTIFICASHUNS 2 BE SENT VIA **DIRECT MESAGEZ**",
+            "disable": "SUCCESFULLY UPDATD LEVEL UP NOTIFICASHUNS 2 BE DISABLD"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "THAR WUZ AN ERROR WHILE EXECUTIN DIS INTERACSHUN.\nPLZ PROVIDE TEH ERROR CODE **%error_code%** 2 TEH SUPPORT TEAM",
+        "access_denied": "ACCES DENID"
     }
 }
