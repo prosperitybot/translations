@@ -1,0 +1,84 @@
+{
+    "commands": {
+        "ignoredchannels": {
+            "channel_already_ignored": "%channel% се већ игнорише",
+            "channel_now_ignored": "%channel% ће бити игнорисан од добијања xp",
+            "channel_not_ignored": "%channel% није игнорисан",
+            "channel_now_not_ignored": "%channel% неће бити игнорисан од добијања xp",
+            "channel_list_title": "Игнорисани канали"
+        },
+        "ignoredroles": {
+            "role_already_ignored": "%role% се већ игнорише",
+            "role_now_ignored": "%role% ће бити игнорисан од добијања xp",
+            "role_not_ignored": "%role% се не игнорише",
+            "role_now_not_ignored": "%role% неће бити игнорисан од добијања xp",
+            "role_list_title": "Игнорисани roles/улоге"
+        },
+        "leaderboard": {
+            "leaderboard_title": "Врхунски %page_size% чланови (Страна %page%/%total_pages%)"
+        },
+        "level": {
+            "not_spoken_yet": "Још увек нисте причали тамо где Вас бот може видети",
+            "your_current_level": "Ваш тренутни ниво је **%level%**\nТреба Вам **%xp%** xp да бисте прешли на следећи ниво",
+            "user_not_spoken_yet": "%user% никада није причао/ла раније",
+            "user_current_level": "Тренутни ниво од %user% је %level%\nТреба им **%xp%** xp да би прешли на следећи ниво"
+        },
+        "levelroles": {
+            "role_already_used": "%role% се већ користи за ниво",
+            "level_must_be_positive": "Ниво мора бити позитиван број",
+            "role_granted": "%role% ће бити дат на **нивоу %level%**",
+            "role_granted_status": "%role% ће бити дат на **нивоу %level%**\n**Статус**:\nТренутно се додаје овај role/улога за %amount% чланова",
+            "role_granted_status_complete": "%role% ће бити игнорисан на **нивоу %level%**\n**Статус**:\nДодат је role/улога за %amount% чланова",
+            "role_not_used": "%role% се не користи за ниво",
+            "role_removed": "%role% више неће бити дат на **нивоу %level%**"
+        },
+        "levels": {
+            "user_doesnt_exist": "%user% није причао у ћаскању откако је бот додат",
+            "level_to_give_must_be_positive": "Нивои који треба да се дају морају бити позитиван број",
+            "levels_added": "Дат je %amount% ниво/a %plural% за %user%",
+            "level_to_take_must_be_positive": "Нивои који се требају узети морају бити позитиван број",
+            "levels_taken": "Узето је %amount% ниво/а %plural% од %user%"
+        },
+        "settings": {
+            "notification_channel_updated": "Успешно су ажурирана обавештења за прелазак нивоа путем %channel%",
+            "notification_type_reply_label": "Одговорите на поруку",
+            "notification_type_reply_description": "Пошаљите поруку за пређени ниво тако што ћете одговорити на поруку која је покренула прелазак нивоа",
+            "notification_type_channel_label": "Одредите канал",
+            "notification_type_channel_description": "Пошаљите поруку за прежени ниво у подешеном каналу",
+            "notification_type_dm_label": "Директне поруке",
+            "notification_type_dm_description": "Пошаљите поруку о пређеном нивоу путем директних порука",
+            "notification_type_disabled_label": "Онеспособљенo",
+            "notification_type_disabled_description": "Онеспособите поруке за пређени ниво",
+            "please_select": "Одаберите коју врсту обавештења желите...",
+            "role_type_stacked": "Корисници ће сад имати наслагане roles/улоге и њихови претходни roles/улоге неће бити уклоњени",
+            "role_type_single": "Корисници ће сад имати појединачне roles/улоге и њихове претходне улоге/roles ће бити уклоњени",
+            "multiplier_set": "Ово удружење/guild сада има %multiplier% додељног множитеља"
+        },
+        "xp": {
+            "user_doesnt_exist": "%user% није причао у ћаскању откако је бот додат",
+            "xp_to_give_must_be_positive": "Xp који се даје мора бити позитиван број",
+            "xp_added": "Дато је %amount% xp за %user%",
+            "xp_to_take_must_be_positive": "Xp који се узима мора бити позитиван број",
+            "xp_taken": "Узето је %amount% xp од %user%"
+        }
+    },
+    "events": {
+        "message_create": {
+            "message_level_up_reply": "Честитамо %user%! Прешли сте на ниво %level%",
+            "message_level_up_channel": "Честитамо %user%! Прешли сте на ниво %level%",
+            "message_level_up_dm": "Честитамо %user%! Прешли сте на ниво %level%"
+        }
+    },
+    "menus": {
+        "guild_settings_notifications": {
+            "reply": "Обавештења о преласку нивоа су успешно ажурирана да буду послата путем **одговора**",
+            "channel": "Користите команду косе црте `/settings notifications` и одредите канал",
+            "dm": "Обавештења о преласку нивоа су успешно ажурирана за слање путем **директних порука**",
+            "disable": "Успешно су ажурирана обавештења за прелазак нивоа да буду онемогућена"
+        }
+    },
+    "generic": {
+        "error": "Дошло је до грешке при извршавању ове интеракције.\nНаведите код грешке **%error_code%** тиму подршке",
+        "access_denied": "Приступ забрањен"
+    }
+}
