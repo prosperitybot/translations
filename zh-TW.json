@@ -1,12 +1,5 @@
 {
     "commands": {
-        "about": {
-            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
-            "administrators_description": "These users are people that help offer higher level support for the bot",
-            "developers_description": "These are the core contributors to the project",
-            "owners_description": "This is the owner of Prosperity",
-            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
-        },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% 已經在被忽略",
             "channel_now_ignored": "%channel% 將會從獲取 xp 被忽略",
@@ -20,11 +13,6 @@
             "role_not_ignored": "%role% 正不在被忽略",
             "role_now_not_ignored": "%role% 不會從獲取 xp 被忽略",
             "role_list_title": "忽略的角色"
-        },
-        "language": {
-            "server_language": "Server Language",
-            "user_language": "User Language",
-            "choice_message": "Please choose below whether you want to set your own language, or the server language"
         },
         "leaderboard": {
             "leaderboard_title": "前 %page_size% 位 (%page%/%total_pages% 頁)"
@@ -62,46 +50,35 @@
             "notification_type_disabled_label": "取消",
             "notification_type_disabled_description": "取消提高級別消息",
             "please_select": "請在下面的列表上選擇你想要的通知型...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned"
-        },
-        "whitelabel": {
-            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
-            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
-            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
+            "role_type_stacked": "成員現在會有堆疊的角色，他們以前的角色將不會被刪除",
+            "role_type_single": "成員現在會有單個角色，他們以前的角色將會被刪除",
+            "multiplier_set": "這個公會現在有一個 **%multiplier%x** 乘數"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "從機器人被加入時後，%user% 沒有在聊天室裡說過話",
+            "xp_to_give_must_be_positive": "要給予的 xp 必須要是正數",
+            "xp_added": "把 %amount% 個 xp 給了 %user%",
+            "xp_to_take_must_be_positive": "要拿走的 xp 必須要是正數",
+            "xp_taken": "把 %amount% 個 xp 從 %user% 拿走了"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "恭喜 %user%！你已經排名到了 %level% 級",
+            "message_level_up_channel": "恭喜 %user%！你已經排名到了 %level% 級",
+            "message_level_up_dm": "恭喜 %user%！你已經排名到了 %level% 級"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
-        },
-        "language_server_menu": {
-            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
-        },
-        "language_user_menu": {
-            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
+            "reply": "成功把在提高級別的通知更新了，他們將會在 **回答** 裡發送",
+            "channel": "請用 `/settings notifications` slash 命令指定頻道",
+            "dm": "成功把在提高級別的通知更新了，他們將會在 **私信** 裡發送",
+            "disable": "成功把在提高級別的通知更新了，他們將會被取消"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "執行此交互時出錯。\n請向支持團隊提供錯誤代碼 **%error_code%**",
+        "access_denied": "訪問拒絕"
     }
 }
