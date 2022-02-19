@@ -1,5 +1,12 @@
 {
     "commands": {
+        "about": {
+            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
+            "administrators_description": "These users are people that help offer higher level support for the bot",
+            "developers_description": "These are the core contributors to the project",
+            "owners_description": "This is the owner of Prosperity",
+            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
+        },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% ya está siendo ignorado",
             "channel_now_ignored": "%channel% será ignorado de ganar xp",
@@ -13,6 +20,11 @@
             "role_not_ignored": "%role% no está siendo ignorado",
             "role_now_not_ignored": "%role% no será ignorado al ganar xp",
             "role_list_title": "Roles ignorados"
+        },
+        "language": {
+            "server_language": "Server Language",
+            "user_language": "User Language",
+            "choice_message": "Please choose below whether you want to set your own language, or the server language"
         },
         "leaderboard": {
             "leaderboard_title": "Top %page_size% miembros (Página %page%/%total_pages%)"
@@ -54,6 +66,11 @@
             "role_type_single": "Los usuarios ahora tendrán roles únicos y sus roles anteriores serán eliminados",
             "multiplier_set": "Este gremio ahora tiene un multiplicador **%multiplier%x ** asignado"
         },
+        "whitelabel": {
+            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
+            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
+            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
+        },
         "xp": {
             "user_doesnt_exist": "%user% no ha hablado en el chat desde que el bot fue añadido",
             "xp_to_give_must_be_positive": "Xp para dar debe ser un número positivo",
@@ -75,6 +92,12 @@
             "channel": "Por favor, utiliza el comando `/settings notifications` y especifica el canal",
             "dm": "Notificaciones de nivel actualizadas correctamente para ser enviadas a través de **Mensajes Directos**",
             "disable": "Notificaciones de nivel actualizadas correctamente para ser deshabilitadas"
+        },
+        "language_server_menu": {
+            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
+        },
+        "language_user_menu": {
+            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
         }
     },
     "generic": {
