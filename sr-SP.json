@@ -1,5 +1,12 @@
 {
     "commands": {
+        "about": {
+            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
+            "administrators_description": "These users are people that help offer higher level support for the bot",
+            "developers_description": "These are the core contributors to the project",
+            "owners_description": "This is the owner of Prosperity",
+            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
+        },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% се већ игнорише",
             "channel_now_ignored": "%channel% ће бити игнорисан од добијања xp",
@@ -13,6 +20,11 @@
             "role_not_ignored": "%role% се не игнорише",
             "role_now_not_ignored": "%role% неће бити игнорисан од добијања xp",
             "role_list_title": "Игнорисани roles/улоге"
+        },
+        "language": {
+            "server_language": "Server Language",
+            "user_language": "User Language",
+            "choice_message": "Please choose below whether you want to set your own language, or the server language"
         },
         "leaderboard": {
             "leaderboard_title": "Врхунски %page_size% чланови (Страна %page%/%total_pages%)"
@@ -54,6 +66,11 @@
             "role_type_single": "Корисници ће сад имати појединачне roles/улоге и њихове претходне улоге/roles ће бити уклоњени",
             "multiplier_set": "Ово удружење/guild сада има %multiplier% додељног множитеља"
         },
+        "whitelabel": {
+            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
+            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
+            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
+        },
         "xp": {
             "user_doesnt_exist": "%user% није причао у ћаскању откако је бот додат",
             "xp_to_give_must_be_positive": "Xp који се даје мора бити позитиван број",
@@ -75,6 +92,12 @@
             "channel": "Користите команду косе црте `/settings notifications` и одредите канал",
             "dm": "Обавештења о преласку нивоа су успешно ажурирана за слање путем **директних порука**",
             "disable": "Успешно су ажурирана обавештења за прелазак нивоа да буду онемогућена"
+        },
+        "language_server_menu": {
+            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
+        },
+        "language_user_menu": {
+            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
         }
     },
     "generic": {
