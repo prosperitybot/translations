@@ -1,5 +1,12 @@
 {
     "commands": {
+        "about": {
+            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
+            "administrators_description": "These users are people that help offer higher level support for the bot",
+            "developers_description": "These are the core contributors to the project",
+            "owners_description": "This is the owner of Prosperity",
+            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
+        },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% 已经在被忽略",
             "channel_now_ignored": "%channel% 将会从获取 xp 被忽略",
@@ -13,6 +20,11 @@
             "role_not_ignored": "%role% 正不在被忽略",
             "role_now_not_ignored": "%role% 不会从获取 xp 被忽略",
             "role_list_title": "忽略的角色"
+        },
+        "language": {
+            "server_language": "Server Language",
+            "user_language": "User Language",
+            "choice_message": "Please choose below whether you want to set your own language, or the server language"
         },
         "leaderboard": {
             "leaderboard_title": "前 %page_size% 位 (%page%/%total_pages% 页)"
@@ -54,6 +66,11 @@
             "role_type_single": "成员现在会有单个角色，他们以前的角色将会被删除",
             "multiplier_set": "这个公会现在有一个 **%multiplier%x** 乘数"
         },
+        "whitelabel": {
+            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
+            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
+            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
+        },
         "xp": {
             "user_doesnt_exist": "从机器人被加入时后，%user% 没有在聊天室里说过话",
             "xp_to_give_must_be_positive": "要给予的 xp 必须要是正数",
@@ -75,6 +92,12 @@
             "channel": "请用 `/settings notifications` slash 命令指定频道",
             "dm": "成功把在提高级别的通知更新了，他们将会在 **私信** 里发送",
             "disable": "成功把在提高级别的通知更新了，他们将会被取消"
+        },
+        "language_server_menu": {
+            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
+        },
+        "language_user_menu": {
+            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
         }
     },
     "generic": {
