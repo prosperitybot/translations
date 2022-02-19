@@ -1,12 +1,5 @@
 {
     "commands": {
-        "about": {
-            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
-            "administrators_description": "These users are people that help offer higher level support for the bot",
-            "developers_description": "These are the core contributors to the project",
-            "owners_description": "This is the owner of Prosperity",
-            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
-        },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% IZ ALREADY BEAN IGNORD",
             "channel_now_ignored": "%channel% WILL BE IGNORD FRUM GAININ XP",
@@ -20,11 +13,6 @@
             "role_not_ignored": "%role% IZ NOT BEAN IGNORD",
             "role_now_not_ignored": "%role% WILL NOT BE IGNORD FRUM GAININ XP",
             "role_list_title": "IGNORD ROLEZ"
-        },
-        "language": {
-            "server_language": "Server Language",
-            "user_language": "User Language",
-            "choice_message": "Please choose below whether you want to set your own language, or the server language"
         },
         "leaderboard": {
             "leaderboard_title": "TOP %page_size% MEMBERZ (PAEG %page%/%total_pages%)"
@@ -66,11 +54,6 @@
             "role_type_single": "USERS WILL NAO HAS SINGLE ROLEZ AN THEIR PREVIOUS ROLEZ WILL BE REMOVD",
             "multiplier_set": "DIS GUILD NAO HAS **%multiplier%X** MULTIPLIR ASSIGND"
         },
-        "whitelabel": {
-            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
-            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
-            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
-        },
         "xp": {
             "user_doesnt_exist": "%user% HAS NOT TALKD IN CHAT SINCE TEH BOT WUZ ADDD",
             "xp_to_give_must_be_positive": "XP 2 GIV MUST BE POSITIV NUMBR",
@@ -92,12 +75,6 @@
             "channel": "PLZ USE TEH SLASH COMMAND `/settings notifications` AN SPECIFY TEH CHANNEL",
             "dm": "SUCCESFULLY UPDATD LEVEL UP NOTIFICASHUNS 2 BE SENT VIA **DIRECT MESAGEZ**",
             "disable": "SUCCESFULLY UPDATD LEVEL UP NOTIFICASHUNS 2 BE DISABLD"
-        },
-        "language_server_menu": {
-            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
-        },
-        "language_user_menu": {
-            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
         }
     },
     "generic": {
