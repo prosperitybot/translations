@@ -1,12 +1,5 @@
 {
     "commands": {
-        "about": {
-            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
-            "administrators_description": "These users are people that help offer higher level support for the bot",
-            "developers_description": "These are the core contributors to the project",
-            "owners_description": "This is the owner of Prosperity",
-            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
-        },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% ja està sent ignorat",
             "channel_now_ignored": "%channel% serà ignorat de guanyar xp",
@@ -20,11 +13,6 @@
             "role_not_ignored": "%role% no està sent ignorat",
             "role_now_not_ignored": "%role% no serà ignorat de guanyar xp",
             "role_list_title": "Rols Ignorats"
-        },
-        "language": {
-            "server_language": "Server Language",
-            "user_language": "User Language",
-            "choice_message": "Please choose below whether you want to set your own language, or the server language"
         },
         "leaderboard": {
             "leaderboard_title": "Primers %page_size% membres (Pàgina %page%/%total_pages%)"
@@ -66,11 +54,6 @@
             "role_type_single": "Ara els usuaris tindran rols únics i els seus rols anteriors seran eliminats",
             "multiplier_set": "Ara aquest gremi té un multiplicador de **%multiplier%x** assignat"
         },
-        "whitelabel": {
-            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
-            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
-            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
-        },
         "xp": {
             "user_doesnt_exist": "%user% no ha parlat en el xat des que el bot va ser afegit",
             "xp_to_give_must_be_positive": "Xp a donar ha de ser un nombre positiu",
@@ -92,12 +75,6 @@
             "channel": "Si us plau, usa la comanda `/settings notifications` i especifica el canal",
             "dm": "Es van actualitzar amb èxit les notificacions de nivell per a ser enviades a través de **Missatges Directes**",
             "disable": "Es van actualitzar amb èxit les notificacions de nivell per a ser deshabilitades"
-        },
-        "language_server_menu": {
-            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
-        },
-        "language_user_menu": {
-            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
         }
     },
     "generic": {
