@@ -64,7 +64,8 @@
             "please_select": "Пожалуйста, выберите тип уведомлений, которые вы хотите...",
             "role_type_stacked": "Теперь у пользователей будут сложенные роли, и их предыдущие роли не будут удалены",
             "role_type_single": "Теперь у пользователей будут одиночные роли, и их предыдущие роли не будут удалены",
-            "multiplier_set": "Мультипликатор **%multiplier%x** назначен для гильдии"
+            "multiplier_set": "Мультипликатор **%multiplier%x** назначен для гильдии",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
