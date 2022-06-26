@@ -64,7 +64,8 @@
             "please_select": "Please select th' type o' notifications ye want below...",
             "role_type_stacked": "Users will now 'ave stacked roles n' thar previous roles will nay be removed",
             "role_type_single": "Users will now have single roles n' thar previous roles will be removed",
-            "multiplier_set": "'Tis guild now has a **%multiplier%x** multiplier assigned"
+            "multiplier_set": "'Tis guild now has a **%multiplier%x** multiplier assigned",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
