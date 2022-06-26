@@ -64,7 +64,8 @@
             "please_select": "Por favor, seleccione el tipo de notificaciones que desea a continuación...",
             "role_type_stacked": "Los usuarios ahora tendrán roles acumulados y sus roles anteriores no serán eliminados",
             "role_type_single": "Los usuarios ahora tendrán roles únicos y sus roles anteriores serán eliminados",
-            "multiplier_set": "Este gremio ahora tiene un multiplicador **%multiplier%x ** asignado"
+            "multiplier_set": "Este gremio ahora tiene un multiplicador **%multiplier%x ** asignado",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",

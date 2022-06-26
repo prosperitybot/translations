@@ -64,7 +64,8 @@
             "please_select": "Одаберите коју врсту обавештења желите...",
             "role_type_stacked": "Корисници ће сад имати наслагане roles/улоге и њихови претходни roles/улоге неће бити уклоњени",
             "role_type_single": "Корисници ће сад имати појединачне roles/улоге и њихове претходне улоге/roles ће бити уклоњени",
-            "multiplier_set": "Ово удружење/guild сада има %multiplier% додељног множитеља"
+            "multiplier_set": "Ово удружење/guild сада има %multiplier% додељног множитеља",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",

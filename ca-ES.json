@@ -64,7 +64,8 @@
             "please_select": "Si us plau, selecciona el tipus de notificacions que vols a continuació...",
             "role_type_stacked": "Ara els usuaris tindran rols acumulats i els seus rols anteriors no seran eliminats",
             "role_type_single": "Ara els usuaris tindran rols únics i els seus rols anteriors seran eliminats",
-            "multiplier_set": "Ara aquest gremi té un multiplicador de **%multiplier%x** assignat"
+            "multiplier_set": "Ara aquest gremi té un multiplicador de **%multiplier%x** assignat",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
