@@ -1,108 +1,108 @@
 {
     "commands": {
         "about": {
-            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
-            "administrators_description": "These users are people that help offer higher level support for the bot",
-            "developers_description": "These are the core contributors to the project",
-            "owners_description": "This is the owner of Prosperity",
-            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
+            "translators_description": "En kæmpe tak til alle disse translatører for at gøre dette projekt så tilgængeligt som muligt",
+            "administrators_description": "Disse brugere er personer, der hjælper med at yde support på et højere niveau til botten's brugere",
+            "developers_description": "Disse er de vigtigste bidragere til projektet",
+            "owners_description": "Dette er ejeren af 'Prosperity'",
+            "bot_description": "'Prosperity' er en level-bot, der er klar til at opkvalificere og booste din Discord server. Vi er stolte af vores åbenhed, transparens og samarbejde med fællesskabet"
         },
         "ignoredchannels": {
-            "channel_already_ignored": "%channel% is already being ignored",
-            "channel_now_ignored": "%channel% will be ignored from gaining xp",
-            "channel_not_ignored": "%channel% is not being ignored",
-            "channel_now_not_ignored": "%channel% will not be ignored from gaining xp",
-            "channel_list_title": "Ignored Channels"
+            "channel_already_ignored": "%channel% bliver allerade ignoreret",
+            "channel_now_ignored": "%channel% vil blive ignoreret fra at tjene xp",
+            "channel_not_ignored": "%channel% bliver ikke ignoreret",
+            "channel_now_not_ignored": "%channel% vil ikke blive ignoreret fra at tjene xp",
+            "channel_list_title": "Ignorerede kanaler"
         },
         "ignoredroles": {
-            "role_already_ignored": "%role% is already being ignored",
-            "role_now_ignored": "%role% will be ignored from gaining xp",
-            "role_not_ignored": "%role% is not being ignored",
-            "role_now_not_ignored": "%role% will not be ignored from gaining xp",
-            "role_list_title": "Ignored Roles"
+            "role_already_ignored": "%role% bliver allerade ignoreret",
+            "role_now_ignored": "%role% vil blive ignoreret fra at tjene xp",
+            "role_not_ignored": "%role% bliver ikke ignoreret",
+            "role_now_not_ignored": "%role% vil ikke blive ignoreret fra at tjene xp",
+            "role_list_title": "Ignorerede roller"
         },
         "language": {
-            "server_language": "Server Language",
-            "user_language": "User Language",
-            "choice_message": "Please choose below whether you want to set your own language, or the server language"
+            "server_language": "Sprog på serveren",
+            "user_language": "Brugerens sprog",
+            "choice_message": "Venligst vælg nedenfor, om du ønsker at vælge dit eget sprog eller serverens sprog"
         },
         "leaderboard": {
-            "leaderboard_title": "Top %page_size% members (Page %page%/%total_pages%)"
+            "leaderboard_title": "Top %page_size% medlemmer (Side %page%/%total_pages%)"
         },
         "level": {
-            "not_spoken_yet": "You have not spoken where the bot can see you yet",
-            "your_current_level": "Your current level is **%level%**\nYou need **%xp%** xp to get to the next level",
-            "user_not_spoken_yet": "%user% has never talked before",
-            "user_current_level": "%user%'s current level is **%level%**\nThey need **%xp%** xp to get to the next level"
+            "not_spoken_yet": "Du har endnu ikke talt, hvor botten kan se dig",
+            "your_current_level": "Dit nuværende level er **%level%**\nDu mangler **%xp%** xp for at nå det næste level",
+            "user_not_spoken_yet": "%user% har aldrig talt før",
+            "user_current_level": "%user%'s nuværende level er **%level%**\nDe mangler **%xp%** xp for at nå de næste level"
         },
         "levelroles": {
-            "role_already_used": "%role% is already being used for a level",
-            "level_must_be_positive": "Level must be a positive number",
-            "role_granted": "%role% will be granted at **Level %level%**",
-            "role_granted_status": "%role% will be granted at **Level %level%**\n**Status**:\nCurrently adding this role to %amount% members",
-            "role_granted_status_complete": "%role% will be granted at **Level %level%**\n**Status**:\nAdded role to %amount% members",
-            "role_not_used": "%role% is not being used for a level",
-            "role_removed": "%role% will no longer be granted at **Level %level%**"
+            "role_already_used": "%role% bliver allerede brugt for et level",
+            "level_must_be_positive": "Level skal være et positivt tal",
+            "role_granted": "%role% vil blive tildelt ved **Level %level%**",
+            "role_granted_status": "%role% vil blive tildelt ved **Level %level%**\n**Status**:\nTilføjer i øjeblikket denne rolle til %amount% medlemmer",
+            "role_granted_status_complete": "%role% vil blive tildelt ved **Level %level%**\n**Status**:\nTilføjede rolle til %amount% medlemmer",
+            "role_not_used": "%role% bliver ikke brugt for et level",
+            "role_removed": "%role% vil ikke længere blive tildelt ved **Level %level%**"
         },
         "levels": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "level_to_give_must_be_positive": "Levels to give must be a positive number",
-            "levels_added": "Given %amount% level%plural% to %user%",
-            "level_to_take_must_be_positive": "Levels to take must be a positive number",
-            "levels_taken": "Taken %amount% level%plural% from %user%"
+            "user_doesnt_exist": "%user% har ikke talt i chatten, siden botten var tilføjet",
+            "level_to_give_must_be_positive": "Levels at give skal være et positivt tal",
+            "levels_added": "Gav %amount% level%plural% til %user%",
+            "level_to_take_must_be_positive": "Levels at tage skal være et positivt tal",
+            "levels_taken": "Tog %amount% level%plural% fra %user%"
         },
         "settings": {
-            "notification_channel_updated": "Successfully updated level up notifications to be sent in %channel%",
-            "notification_type_reply_label": "Reply to message",
-            "notification_type_reply_description": "Send the level up message by replying to the message that triggered the level up",
-            "notification_type_channel_label": "Specify Channel",
-            "notification_type_channel_description": "Send the level up message in a set channel",
-            "notification_type_dm_label": "Direct Messages",
-            "notification_type_dm_description": "Send the level up message via direct messages",
-            "notification_type_disabled_label": "Disabled",
-            "notification_type_disabled_description": "Disable level up messages",
-            "please_select": "Please select the type of notifications you want below...",
-            "role_type_stacked": "Users will now have stacked roles and their previous roles will not be removed",
-            "role_type_single": "Users will now have single roles and their previous roles will be removed",
-            "multiplier_set": "This guild now has a **%multiplier%x** multiplier assigned",
+            "notification_channel_updated": "Opdaterede succesfuldt level-op notifikationerne til at blive sendt i %channel%",
+            "notification_type_reply_label": "Svar på besked",
+            "notification_type_reply_description": "Send level-op beskeden ved at svare på beskeden der udlæste level-op'en",
+            "notification_type_channel_label": "Angiv kanal",
+            "notification_type_channel_description": "Send level-op beskeden i en valgt kanal",
+            "notification_type_dm_label": "Direkte beskeder",
+            "notification_type_dm_description": "Send level-op beskeden gennem direkte beskeder",
+            "notification_type_disabled_label": "Deaktiveret",
+            "notification_type_disabled_description": "Deaktiver level-op beskeder",
+            "please_select": "Vælg venligst den type notifikation du vil have nedenunder...",
+            "role_type_stacked": "Brugere vil nu have stablede roller, og deres tidligere roller vil ikke blive fjernet",
+            "role_type_single": "Brugere vil nu have enkelte roller, og deres tidligere roller vil blive fjernet",
+            "multiplier_set": "Denne guild har nu en **%multiplier%x** multiplikator tildelt",
             "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
-            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
-            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
-            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
+            "whitelabel_bot_created_started": "Whitelabel bot oprettet og startet\nGiv gen venligst et minut til at registrere alle kommandoer",
+            "whitelabel_bot_actions": "Nedenfor kan du se, tilgængelige handlinger for din whitelabel-bot",
+            "whitelabel_bot_not_active": "Du har ikke i øjeblikket en whitelabel-bot tildelt"
         },
         "xp": {
-            "user_doesnt_exist": "%user% has not talked in chat since the bot was added",
-            "xp_to_give_must_be_positive": "Xp to give must be a positive number",
-            "xp_added": "Given %amount% xp to %user%",
-            "xp_to_take_must_be_positive": "Xp to take must be a positive number",
-            "xp_taken": "Taken %amount% xp from %user%"
+            "user_doesnt_exist": "%user% har ikke talt i chatten siden botten var tilføjet",
+            "xp_to_give_must_be_positive": "Xp at give skal være et positivt tal",
+            "xp_added": "Gav %amount% xp til %user%",
+            "xp_to_take_must_be_positive": "Xp at tage skal være et positivt tal",
+            "xp_taken": "Tog %amount% xp fra %user%"
         }
     },
     "events": {
         "message_create": {
-            "message_level_up_reply": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_channel": "Congratulations %user%! You have ranked up to level %level%",
-            "message_level_up_dm": "Congratulations %user%! You have ranked up to level %level%"
+            "message_level_up_reply": "Tillykke %user%! Du har steget til level %level%",
+            "message_level_up_channel": "Tillykke %user%! Du har steget til level %level%",
+            "message_level_up_dm": "Tillykke %user%! Du har steget til level %level%"
         }
     },
     "menus": {
         "guild_settings_notifications": {
-            "reply": "Successfully updated level up notifications to be sent via **replies**",
-            "channel": "Please use the slash command `/settings notifications` and specify the channel",
-            "dm": "Successfully updated level up notifications to be sent via **Direct Messages**",
-            "disable": "Successfully updated level up notifications to be disabled"
+            "reply": "Opdaterede succesfuldt level-op notifikationer til at blive sendt via **svar**",
+            "channel": "Brug venligst slash-kommandoen `/settings notifications` og angiv kanalen",
+            "dm": "Opdaterede succesfuldt level-op notifikationer til at blive sendt via **Direkte beskeder**",
+            "disable": "Opdaterede succesfuldt level-op notifikationerne til at være deaktiveret"
         },
         "language_server_menu": {
-            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
+            "language_updated": "Serveren's sprog er blevet opdateret til %language_flag% **%language_name%**"
         },
         "language_user_menu": {
-            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
+            "language_updated": "Dit sprog er blevet opdateret til %language_flag% **%language_name%**"
         }
     },
     "generic": {
-        "error": "There was an error while executing this interaction.\nPlease provide the error code **%error_code%** to the support team",
-        "access_denied": "Access Denied"
+        "error": "Der opstod en fejl under udførelsen af denne interaktion.\nOplys venligst fejlkoden **%error_code%** til supportholdet",
+        "access_denied": "Adgang nægtet"
     }
 }
