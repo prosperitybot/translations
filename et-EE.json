@@ -64,7 +64,8 @@
             "please_select": "Palun valige, mis tüüpi märguandeid te soovite alt...",
             "role_type_stacked": "Kasutajatel on nüüd kogunevad rollid ja nende varasemaid rolle ei eemaldata",
             "role_type_single": "Kasutajatel on nüüd üksikud rollid ja nende varasemad rollid eemaldatakse",
-            "multiplier_set": "Sellele gildile on nüüd lisatud kordaja **%multiplier%**"
+            "multiplier_set": "Sellele gildile on nüüd lisatud kordaja **%multiplier%**",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
