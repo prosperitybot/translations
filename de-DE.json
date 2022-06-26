@@ -64,7 +64,8 @@
             "please_select": "Bitte wählen Sie die Art der Benachrichtigung unten...",
             "role_type_stacked": "Benutzer haben nun übereinander angeordnete Rollen und ihre vorherigen Rollen werden nicht entfernt",
             "role_type_single": "Benutzer haben nun einzelne Rollen und ihre vorherigen Rollen werden entfernt",
-            "multiplier_set": "Diese Gilde hat jetzt einen **%multiplier%x ** Multiplikator zugewiesen"
+            "multiplier_set": "Diese Gilde hat jetzt einen **%multiplier%x ** Multiplikator zugewiesen",
+            "delay_set": "You have set the delay for xp to **%delay%** seconds"
         },
         "whitelabel": {
             "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
