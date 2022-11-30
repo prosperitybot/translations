@@ -1,11 +1,11 @@
 {
     "commands": {
         "about": {
-            "translators_description": "A huge thank you to all of these translators for making this project as accessible as possible",
-            "administrators_description": "These users are people that help offer higher level support for the bot",
-            "developers_description": "These are the core contributors to the project",
-            "owners_description": "This is the owner of Prosperity",
-            "bot_description": "Prosperity is a levelling bot ready to skill up and boost up your Discord server. We pride ourselves on openness, transparency and collaboration"
+            "translators_description": "Suur tänu kõikidele neile tõlkijatele, kes tegid selle projekti nii kättesaadavaks, kui võimalik",
+            "administrators_description": "Need kasutajad on inimesed, kes pakuvad botiga seoses kõrgemat tuge",
+            "developers_description": "Need on projekti peamised panustajad",
+            "owners_description": "See on Prosperity omanik",
+            "bot_description": "Prosperity on taseme bot, mis on valmis teie Discordi serverit turgutama ja täiendama. Me oleme uhked oma avatuse, läbipaistvuse ja koostöö üle"
         },
         "ignoredchannels": {
             "channel_already_ignored": "%channel% on juba ignoreeritud",
@@ -22,9 +22,9 @@
             "role_list_title": "Ignoreeritud Rollid"
         },
         "language": {
-            "server_language": "Server Language",
-            "user_language": "User Language",
-            "choice_message": "Please choose below whether you want to set your own language, or the server language"
+            "server_language": "Serveri Keel",
+            "user_language": "Kasutaja Keel",
+            "choice_message": "Palun valige alt, kas soovite määrata oma või serveri keele"
         },
         "leaderboard": {
             "leaderboard_title": "Top %page_size% liikmed (Lehekülg %page%/%total_pages%)"
@@ -65,12 +65,12 @@
             "role_type_stacked": "Kasutajatel on nüüd kogunevad rollid ja nende varasemaid rolle ei eemaldata",
             "role_type_single": "Kasutajatel on nüüd üksikud rollid ja nende varasemad rollid eemaldatakse",
             "multiplier_set": "Sellele gildile on nüüd lisatud kordaja **%multiplier%**",
-            "delay_set": "You have set the delay for xp to **%delay%** seconds"
+            "delay_set": "Te olete määranud xp väljaandmise viivituse **%delay%** sekundiks"
         },
         "whitelabel": {
-            "whitelabel_bot_created_started": "Whitelabel bot created & started\nPlease give it a minute or so to register all of the commands",
-            "whitelabel_bot_actions": "Please see below for the available actions for your whitelabel bot",
-            "whitelabel_bot_not_active": "You currently do not have a whitelabel bot assigned"
+            "whitelabel_bot_created_started": "Whitelabeli bot loodud ja käivitatud\nPalun andge sellele minut aega, et registreerida kõik käsklused",
+            "whitelabel_bot_actions": "Palun vaadake alt võimalike toiminguid teie whitelabel boti jaoks",
+            "whitelabel_bot_not_active": "Teil ei ole hetkel whitelabel bot määratud"
         },
         "xp": {
             "user_doesnt_exist": "%user% ei ole rääkinud kanalis pärast botti lisamist",
@@ -95,10 +95,10 @@
             "disable": "Edukalt uuendatud taseme tõusu märguanded, et neid ei saadetaks"
         },
         "language_server_menu": {
-            "language_updated": "The server's language has been updated to %language_flag% **%language_name%**"
+            "language_updated": "Serveri keel on uuendatud %language_flag% **%language_name%**"
         },
         "language_user_menu": {
-            "language_updated": "Your language has been updated to %language_flag% **%language_name%**"
+            "language_updated": "Teie keel on uuendatud %language_flag% **%language_name%**"
         }
     },
     "generic": {
